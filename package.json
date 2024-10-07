@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "fs": "^0.0.1-security",
+    "geoip-country": "^5.0.202410042341",
     "ip": "^2.0.1",
     "ip-range-check": "^0.2.0",
     "path": "^0.12.7"
