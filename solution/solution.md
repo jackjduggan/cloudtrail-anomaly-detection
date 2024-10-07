@@ -26,3 +26,11 @@ I defined a few steps as to how I wanted to approach this challenge:
 | Use of Unapproved AWS Services | High | Use of any unapproved AWS services requires a security review and written approval from the security team
 
 I struggled to justify giving any of these anomalies anything less than a **high** score, especially considering many anomalies violated more than one of the security policy recommendations.
+
+### Running the Script
+(I haven't tested this so hopefully these instructions will work)
+- Ensure your machine has Node.js installed `node -v`
+- Clone this repository.
+- Installed the required dependencies `npm install ip-range-check geoip-country path fs`
+- Run the script `node solution/detectAnomalies.js`
+- After running, the script will generate (overwrite the existing) *report.json* file.
